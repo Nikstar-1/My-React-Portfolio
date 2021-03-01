@@ -1,18 +1,24 @@
 //import logo from './logo.svg';
-import React, { Component } from 'react'
-import Navbar from './components/Navbar.js'
-//import './App.css';
+import React from 'react'
+import '.../App.css';
+import Nav from './components/Nav.js'
+import About from './components/About';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 
 
-class App extends Component {
-  render() {
+
+  function App() {
   return (
-  <div>
-  <Navbar />
+  <div className="App">
+  <Nav />
+  <About />
+  <Portfolio />
+  <Contact />
   </div>
   )
   }
-  }
+  
 
-  export default App
+  export default App;
   
