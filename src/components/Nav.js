@@ -1,22 +1,29 @@
-import React from 'react'
-import './App.css';
+import React from "react";
+import "../App.css";
+import { Link } from "react-router-dom";
 
+function Nav() {
+  const navStyle = {
+    color: "white",
+  };
 
-  function Nav() {
   return (
-  <nav>
+    <nav>
       <h3>Rekha Kumari Logo</h3>
       <ul>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Portfolio</li>
+        <Link style={navStyle} to="/About">
+          <li>About</li>
+        </Link>
+        <Link style={navStyle} to="/Contact">
+          <li>Contact</li>
+        </Link>
+        <Link style={navStyle} to="/Portfolio">
+          <li>Portfolio</li>
+        </Link>
         <li></li>
       </ul>
-      
-  </nav>
-  
-  )
-  }
-  
+    </nav>
+  );
+}
 
-  export default Nav;
+export default Nav;
