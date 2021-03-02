@@ -6,6 +6,9 @@ import Nav from './components/Nav.js'
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
+
+
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -19,6 +22,7 @@ import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
   <Route path="/About" component={About}/>
   <Route path="/Portfolio" component={Portfolio}/>
   <Route path="/Contact" component={Contact}/>
+  <Route path="/Skills" component={Skills}/>
   </Switch>
   </div>
   </Router>
