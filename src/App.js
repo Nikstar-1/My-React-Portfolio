@@ -7,7 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
-
+import Footer from './components/Footer';
 
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -25,6 +25,7 @@ import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
   <Route path="/Skills" component={Skills}/>
   </Switch>
   </div>
+  <Footer />
   </Router>
   )
   }
