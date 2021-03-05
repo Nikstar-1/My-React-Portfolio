@@ -5,10 +5,11 @@ import { Link } from "react-router-dom";
 function Nav() {
   const navStyle = {
     color: "white",
+    
   };
 
   return (
-    <nav>
+    <nav className="ml-auto">
       <h3>Rekha Kumari Logo</h3>
       <ul>
         <Link style={navStyle} to="/About">
@@ -20,12 +21,15 @@ function Nav() {
         <Link style={navStyle} to="/Portfolio">
           <li>Portfolio</li>
         </Link>
-        <Link style={navStyle} to="/Skills">
-        <li>Skills</li>
+        <Link style={navStyle} to="/SocialFollow">
+        <li>Social Media</li>
         </Link>
       </ul>
     </nav>
   );
 }
+
+
+
 
 export default Nav;

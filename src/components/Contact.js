@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 
-
   function Contact () {
     return (
         <div>
@@ -55,7 +54,7 @@ import '../App.css';
       </div>
   </section>
         </div>
-          
+        
         
    )
 }

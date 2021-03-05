@@ -1,38 +1,43 @@
-//import logo from './logo.svg';
 import React from 'react'
 import './App.css'
 
+import Container from "react-bootstrap/Container";
 import Nav from './components/Nav.js'
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
-import Skills from './components/Skills';
-import Footer from './components/Footer';
+import Footer from './components/Footer.';
+import SocialFollow from "./components/SocialFollow"
 
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
+
   function App() {
+     (<h1>test!</h1>);
   return (
-    <Router>
-  <div className="App">
+    
+  
+    <Container fluid className="p-0">
+  <Router>
   <Nav />
   <Switch>
-  <Route path="/" exact component={Home}/>
+  <Route path="/" exact component={Home} />
   <Route path="/About" component={About}/>
-  <Route path="/Portfolio" component={Portfolio}/>
-  <Route path="/Contact" component={Contact}/>
-  <Route path="/Skills" component={Skills}/>
+  <Route path="/Portfolio" component={Portfolio} />
+  <Route path="/Contact" component={Contact} />
+  <Route path="/SocialFollow" component={SocialFollow} />
   </Switch>
-  </div>
   <Footer />
   </Router>
+  </Container>
   )
   }
   
   const Home = () => (
     <div>
       <h1>Home Page</h1>
+
     </div>
   )
 

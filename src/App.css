@@ -23,6 +23,7 @@ body{
 
 img {
   border: 3px solid white;
+ 
 }
 
 nav {
@@ -41,3 +42,56 @@ nav {
   align-items:  center;
   list-style: none;
 }
+
+footer {
+  text-align: center;
+  padding: 4px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;  
+  color: grey;
+}
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+a.github {
+  color: black;
+ 
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  color: white;
+ 
+}
+
