@@ -17,7 +17,7 @@ function Portfolio () {
       <div className="rows">
         <div className="col-xs-6 col-sm-6 col-lg-3">
           <h2 className="ml3">Portfolio</h2> 
-          <hr />
+          
         </div>
       </div>   
       <hr />

@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
 
+
 function Nav() {
   const navStyle = {
     color: "white",
@@ -9,9 +10,9 @@ function Nav() {
   };
 
   return (
-    <nav className="ml-auto">
-      <h3>Rekha Kumari Logo</h3>
-      <ul>
+    <nav className="container-fluid pt-4 bg-light" style={{display: "flex"}} >
+      
+      <ul style={{display: "flex"}}>
         <Link style={navStyle} to="/About">
           <li>About</li>
         </Link>
