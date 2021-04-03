@@ -45,7 +45,7 @@ import '../App.css';
               <input type="text" className="form-control" placeholder="Subject"/>
             </div>
             <div className="form-group">
-              <textarea className="form-control" rows="7" placeholder="your message" style={{resize: 'none'}}></textarea>
+              <textarea className="form-control" rows="7" placeholder="Type a message" style={{resize: 'none'}}></textarea>
             </div>
             <button type="submit" className="btn r-btn float-right">Submit</button>
           </form>

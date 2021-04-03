@@ -23,7 +23,7 @@ body{
 
 img {
   border: 3px solid white;
- 
+  
 }
 
 nav {
@@ -36,7 +36,6 @@ nav {
   text-decoration: none;
 	font-family: Cambria, serif;
 	font-size: 20px;
-  right: 100;
 	color: #596365;
   
 }
@@ -100,4 +99,45 @@ a.instagram {
     linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
   color: white;
  
+}
+/*ABOUT ME TYPE WRITER EFFECT */
+.typewriter h1 {
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation:
+      typing 2s steps(15, end),
+      blink-caret .5s step-end infinite;
+      animation-iteration-count: infinite;
+}
+.typewriter {
+  max-width: 275px;
+}
+/* The typing effect */
+@keyframes typing {
+  from {
+      width: 0
+  }
+  to {
+      width: 100%
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+      border-color: transparent
+  }
+  50% {
+      border-color: rgb(0, 0, 0)
+  }
 }
