@@ -1,11 +1,11 @@
 import React from "react";
-import "../App.css";
+
 import { Link } from "react-router-dom";
 class Nav extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg">
           {/* <a className="navbar-brand" href="#">
             Navbar
           </a> */}

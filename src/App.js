@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+
 //import background from "./components/images/Background.png";
 
 import Container from "react-bootstrap/Container";

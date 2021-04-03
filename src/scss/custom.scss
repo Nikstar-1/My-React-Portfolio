@@ -1,0 +1,199 @@
+// Override default variables before the import
+// $body-bg: #000;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+$primary-color: #ffffff;
+$secondary-color: #dc97ae;
+$tertiary-color: #ffe9e3;
+$primary-text-color: black;
+$secondary-text-color: black;
+
+
+.navbar {
+  background: $primary-color;
+  color: $primary-text-color;
+}
+a {
+  color: $primary-text-color;
+}
+.jumbotron {
+  background-color: $secondary-color;
+}
+.card {
+  background-color: $secondary-color;
+}
+
+.btn {
+  background: #272343;
+  border: 0px;
+  color: white;
+}
+a:not([href]):not([tabindex]) {
+  color: white;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  color: black !important;
+  background-color: $secondary-color !important;
+  border: solid 2px black !important;
+}
+#websiteLink {
+  margin-top: 14px;
+}
+#contact {
+  margin-bottom: 100px;
+}
+
+// custom css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background:  #dc97ae;
+}
+
+img {
+  border: 3px solid white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: grey;
+  color: black;
+  text-decoration: none;
+  font-family: Cambria, serif;
+  font-size: 20px;
+  color: #596365;
+}
+
+nav li {
+  margin-right: 40px;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 4px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
+}
+
+.social-container {
+  background: $secondary-color;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+a.github {
+  color: black;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+  color: white;
+}
+/*ABOUT ME TYPE WRITER EFFECT */
+.typewriter h1 {
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  /* Adjust as needed */
+  animation: typing 2s steps(15, end), blink-caret 0.5s step-end infinite;
+  animation-iteration-count: infinite;
+}
+// .typewriter {
+//   // max-width: 275px;
+// }
+// /* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(0, 0, 0);
+  }
+}
