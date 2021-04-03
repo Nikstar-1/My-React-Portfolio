@@ -41,13 +41,15 @@ class About extends React.Component {
               height="280"
             ></Image>
           </div>
-
+          <h1>Hello, I'm Rekha Kumari.</h1>
           <div className="box-white">
             <div className="typewriter col justify-content-center">
-              <h1>Welcome to my Website</h1>
+           
+              <h1> I'm a Full Stack Web Developer.</h1>
             </div>
             <hr className="my-4" />
             <p>
+             
               Hi, My name is Rekha. I am currently working in Aviation as an
               On-Board Manager. I'm looking forward to stepping into the world
               of Technology, Web Development/Software. I want to become a web
@@ -59,7 +61,7 @@ class About extends React.Component {
               Development. Experience in Front and Backend technologies.
               Frameworks inc: Bootstrap and Semantic UI. Languages: HTML5, CSS,
               JQuery, JavaScript, ReactJS and JSON. Technologies: Handlebars,
-              Node.js.
+              Node.js.   
             </p>
             <p className="lead">
               {/* <a className="btn btn-dark btn-lg" href="#" role="button">
