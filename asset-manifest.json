@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/My-React-Portfolio/static/css/main.a082f694.chunk.css",
+    "main.js": "/My-React-Portfolio/static/js/main.987db1d7.chunk.js",
+    "main.js.map": "/My-React-Portfolio/static/js/main.987db1d7.chunk.js.map",
+    "runtime-main.js": "/My-React-Portfolio/static/js/runtime-main.4a3d6f35.js",
+    "runtime-main.js.map": "/My-React-Portfolio/static/js/runtime-main.4a3d6f35.js.map",
+    "static/css/2.ec02d681.chunk.css": "/My-React-Portfolio/static/css/2.ec02d681.chunk.css",
+    "static/js/2.270555fd.chunk.js": "/My-React-Portfolio/static/js/2.270555fd.chunk.js",
+    "static/js/2.270555fd.chunk.js.map": "/My-React-Portfolio/static/js/2.270555fd.chunk.js.map",
+    "static/js/3.0d2397c6.chunk.js": "/My-React-Portfolio/static/js/3.0d2397c6.chunk.js",
+    "static/js/3.0d2397c6.chunk.js.map": "/My-React-Portfolio/static/js/3.0d2397c6.chunk.js.map",
+    "index.html": "/My-React-Portfolio/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/My-React-Portfolio/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.a082f694.chunk.css.map": "/My-React-Portfolio/static/css/main.a082f694.chunk.css.map",
+    "static/js/2.270555fd.chunk.js.LICENSE.txt": "/My-React-Portfolio/static/js/2.270555fd.chunk.js.LICENSE.txt",
+    "static/media/custom.scss": "/My-React-Portfolio/static/media/Background3.3f0640cf.jpeg",
+    "static/media/Burger.cabb1f97.png": "/My-React-Portfolio/static/media/Burger.cabb1f97.png",
+    "static/media/CurrencyConverter.0990cbf6.png": "/My-React-Portfolio/static/media/CurrencyConverter.0990cbf6.png",
+    "static/media/Horiseon.480dd48c.png": "/My-React-Portfolio/static/media/Horiseon.480dd48c.png",
+    "static/media/NoteTaker.e1f89eca.png": "/My-React-Portfolio/static/media/NoteTaker.e1f89eca.png",
+    "static/media/Password.ddd57cf1.png": "/My-React-Portfolio/static/media/Password.ddd57cf1.png",
+    "static/media/ProfilePhoto.5686a1f2.jpg": "/My-React-Portfolio/static/media/ProfilePhoto.5686a1f2.jpg",
+    "static/media/TravelTracker.41deeb08.png": "/My-React-Portfolio/static/media/TravelTracker.41deeb08.png",
+    "static/media/Weather.1be3a214.png": "/My-React-Portfolio/static/media/Weather.1be3a214.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a3d6f35.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.270555fd.chunk.js",
+    "static/css/main.a082f694.chunk.css",
+    "static/js/main.987db1d7.chunk.js"
+  ]
+}
