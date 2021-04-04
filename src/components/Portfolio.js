@@ -15,7 +15,7 @@ const showAllCards = () => {
   return (
     <div>
       <div className="card-deck mt-4">
-        {/* card four */}
+        {/* card 1 */}
         <div className="card" data-aos="fade-up">
           <img
             className="card-img-top"

@@ -1,5 +1,12 @@
 import React from "react";
-
+import {
+  faTwitter,
+  faInstagram,
+  faLinkedinIn,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 class Nav extends React.Component {
   render() {
@@ -18,7 +25,7 @@ class Nav extends React.Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+             <FontAwesomeIcon icon={faBars} size="2x" />
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
